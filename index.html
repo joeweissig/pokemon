@@ -13,7 +13,8 @@
     }
 
     document.addEventListener("DOMContentLoaded", function() {
-      document.getElementById("g1").checked = true;
+      document.getElementById("g6").checked = true;
+      gen6show();
     });
 
     function gen1show() {
@@ -99,9 +100,9 @@
 
   </head>
   <body>
-    <input type="radio" name="gen" id="g1" onclick="gen1show()" checked> Gen. 1
+    <input type="radio" name="gen" id="g1" onclick="gen1show()"> Gen. 1
     <input type="radio" name="gen" id="g2" onclick="gen2show()"> Gen. 2-5
-    <input type="radio" name="gen" id="g6" onclick="gen6show()"> Gen. 6
+    <input type="radio" name="gen" id="g6" onclick="gen6show()" checked> Gen. 6
     <br>
     <div class="type" id="normal">
       <img src="res/normal.gif" />
